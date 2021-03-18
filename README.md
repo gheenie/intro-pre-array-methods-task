@@ -1,6 +1,6 @@
 # Array methods warm up task
 
-Complete the challenges in this order:
+_Once you have **fork**ed and then **clone**d this repository_, complete the challenges in this order:
 
 **pop** -> **push** -> **bus-task-1** -> **bus-task-2**
 
