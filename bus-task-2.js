@@ -17,6 +17,13 @@ const ncTutorBus = ['Driver', 'Izzi', 'Anat', 'Liam', 'Haz', 'Foluso'];
 
 // <------ Write your code here ------>
 
+const somePassengers = ncTutorBus.splice(1, 4);
+somePassengers.splice(0, 1);
+ncTutorBus.push(( somePassengers.splice(0, 1) ).pop());
+ncTutorBus.push(somePassengers.pop());
+ncTutorBus.push('Mitch');
+ncTutorBus.push(somePassengers.pop());
+
 const ncTutorBusAtDestination = [
   'Driver',
   'Foluso',
